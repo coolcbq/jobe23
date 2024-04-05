@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+南粤人才网全局样式
+http://www.job9988.com
+--Yao--
+
+ */
+
+.wrap{ width:1000px; height:1000px; position:relative}
+
+.boxwrap{width:700px;z-index:101; height:auto; overflow-y:auto; overflow-x:hidden; position:absolute; left:50px; top:40px; background:#D30000; border-bottom:#CCC 3px solid; border-right:#CCC 3px solid}
+.boxwrap h3{font-size:12px; text-align:left; padding-left:10px; padding-right:10px; color:#FFF; padding-top:7px; height:20px; background:url(/web/20150315062358im_/http://www.job9988.com/images/hbg0.gif) repeat-x;}
+.boxwrap h3 span{ float:right;}
+.boxwrap h3 a{ float:right; color:#ffffff; text-decoration:none}
+.boxwrap h3 a:hover{color:#ffffff}
+.boxwrap h3 span a{ background:url(/web/20150315062358im_/http://www.job9988.com/images/close.gif) no-repeat; width:14px; height:14px; display:block}
+.boxwrap h3 span a:hover{ background:url(/web/20150315062358im_/http://www.job9988.com/images/closehover.gif) no-repeat; width:14px; height:14px; display:block}
+
+.boxinwrap{ height:auto; padding-left:5px; padding-right:5px; padding-bottom:5px}
+
+/*弹出样式*/
+.box{ width:100%; height:auto; overflow:hidden; margin:auto; background:#FFF}
+
+/*头部*/
+.box .boxheader{ height:auto; background:#F5ECEB; text-align:center;}
+
+/*提示*/
+.box .boxheader .tips{ font-size:12px; line-height:40px; height:40px; width:96%; text-align:left; margin:auto;padding-top:10px;  border-bottom:#F0D3D7 1px solid; background:#F5ECEB;}
+.box .boxheader .tips span{ float:right; margin-top:0px!important; }
+.box .boxheader .tips span input{ background:url(/web/20150315062358im_/http://www.job9988.com/images/searchsubbg.gif) no-repeat left center; color:#FFF; font-size:12px; width:80px; height:27px; line-height:27px; border:#D91E1B 0px solid}
+	
+/*结果*/
+.box .boxheader .tipsmaintop{ width:96%; height:auto; overflow:hidden; border-top:#FFF 1px solid; margin:auto}
+.box .boxheader .tipsmaintop p{ margin-top:10px; padding-bottom:10px; text-align:left; line-height:20px}
+.box .boxheader .tipsmaintop ul{ width:100%; height:auto; overflow:hidden; padding-bottom:10px}
+.box .boxheader .tipsmaintop ul li{ float:left; width:49.5%; text-align:left; height:30px; line-height:30px;}
+.box .boxheader .tipsmaintop ul li a{ color:#000; text-decoration:none; background:url(/web/20150315062358im_/http://www.job9988.com/images/close.gif) no-repeat 98% center; padding-right:20px; vertical-align:middle; line-height:20px; height:20px; padding-top:3px; padding-bottom:3px; padding-left:3px;}
+.box .boxheader .tipsmaintop ul li a:hover{ border:#000 1px solid;color:#000; text-decoration:none; background:url(/web/20150315062358im_/http://www.job9988.com/images/closehover.gif) no-repeat 98% center; padding-right:20px; vertical-align:middle; line-height:20px; height:20px; padding-top:3px; padding-bottom:3px; padding-left:3px; color:#D91E1B}
+
+/*期望工作地区*/
+.box .boxheader .tipsmaintop1{ width:96%; height:auto; overflow:hidden; border-top:#FFF 1px solid; margin:auto}
+.box .boxheader .tipsmaintop1 p{ margin-top:10px; padding-bottom:10px; text-align:left; line-height:20px}
+.box .boxheader .tipsmaintop1 ul{ width:100%; height:auto; overflow:hidden; padding-bottom:10px}
+.box .boxheader .tipsmaintop1 ul li{ float:left; width:80px; text-align:left; height:30px; line-height:30px;}
+.box .boxheader .tipsmaintop1 ul li a{ color:#000; text-decoration:none; background:url(/web/20150315062358im_/http://www.job9988.com/images/close.gif) no-repeat 98% center; padding-right:20px; vertical-align:middle; line-height:20px; height:20px; padding-top:3px; padding-bottom:3px; padding-left:3px;}
+.box .boxheader .tipsmaintop1 ul li a:hover{ border:#000 1px solid;color:#000; text-decoration:none; background:url(/web/20150315062358im_/http://www.job9988.com/images/closehover.gif) no-repeat 98% center; padding-right:20px; vertical-align:middle; line-height:20px; height:20px; padding-top:3px; padding-bottom:3px; padding-left:3px; color:#D91E1B}
+
+
+/*选项*/
+.box .singleBoxOptions{ width:96%; height:auto; overflow:hidden; margin:auto; padding-top:10px; padding-bottom:10px;}
+.box .singleBoxOptions div{color:red; text-align:left; font-size: 10pt}
+.box .singleBoxOptions div a:hover{color:blue; text-decoration:underline; text-align:left; font-size: 10pt}
+.box .singleBoxOptions ul{ width:100%; height:auto; overflow:hidden;}
+.box .singleBoxOptions ul li{ float:left; width:50px; text-align:left; height:24px; line-height:24px}
+.box .singleBoxOptions ul li input{ vertical-align:middle}
+.box .singleBoxOptions ul li a{ color:#000; text-decoration:none; no-repeat 90% center; display:block; padding-left:5px}
+.box .singleBoxOptions ul li a:hover{ color:blue no-repeat 90% center;}
+.box .singleBoxOptions ul li a.noico{ color:#000; background:none; display:block; padding-left:5px}
+.box .singleBoxOptions ul li a.noico:hover{ background:#F5ECEB; font-size:10pt; font-weight:bold}
+
+/*职位类别*/
+.box .singleBoxOptions1{ width:96%; height:auto; overflow:hidden; margin:auto; padding-top:10px; padding-bottom:10px;}
+.box .singleBoxOptions1 div{color:red; text-align:left; font-size: 10pt}
+.box .singleBoxOptions1 div a:hover{color:blue; text-decoration:underline; text-align:left; font-size: 10pt}
+.box .singleBoxOptions1 ul{ width:100%; height:auto; overflow:hidden;}
+.box .singleBoxOptions1 ul li{ float:left; width:25%; text-align:left; height:24px; line-height:24px; overflow:hidden;}
+.box .singleBoxOptions1 ul li input{ vertical-align:middle}
+.box .singleBoxOptions1 ul li a{ color:#000; text-decoration:none; no-repeat 90% center; display:block; padding-left:5px}
+.box .singleBoxOptions1 ul li a:hover{ color:blue no-repeat 90% center;}
+.box .singleBoxOptions1 ul li a.noico{ color:#000; background:none; display:block; padding-left:5px}
+.box .singleBoxOptions1 ul li a.noico:hover{ background:#F5ECEB; font-size:10pt; font-weight:bold}
+
+.box .multiBoxOptions{ width:96%; height:auto; overflow:hidden; margin:auto; padding-top:10px; padding-bottom:10px;}
+.box .multiBoxOptions ul{ width:100%; height:auto; overflow:hidden;}
+.box .multiBoxOptions ul li{ float:left; width:49.5%; text-align:left; height:24px; line-height:24px}
+.box .multiBoxOptions ul li input{ vertical-align:middle}
+.box .multiBoxOptions ul li a{ color:#000; text-decoration:none; background:url(/web/20150315062358im_/http://www.job9988.com/images/ico.gif) no-repeat 90% center; display:block; padding-left:5px}
+.box .multiBoxOptions ul li a:hover{ background:#F5ECEB url(/web/20150315062358im_/http://www.job9988.com/images/icohover.gif) no-repeat 90% center;}
+.box .multiBoxOptions ul li a.noico{ color:#000; text-decoration:none; background:none; display:block; padding-left:5px}
+.box .multiBoxOptions ul li a.noico:hover{ background:#F5ECEB;}
+
+.box .boxOptions{ width:96%; height:auto; overflow:hidden; margin:auto; padding-top:10px; padding-bottom:10px;}
+.box .boxOptions div{color:red; text-align:left; font-size: 10pt}
+.box .boxOptions ul{ width:100%; height:auto; overflow:hidden;}
+.box .boxOptions ul li{ float:left; width:19.5%; text-align:left; height:24px; line-height:24px}
+.box .boxOptions ul li input{ vertical-align:middle}
+.box .boxOptions ul li a{ color:#000; text-decoration:none; no-repeat 90% center; display:block; padding-left:5px}
+.box .boxOptions ul li a:hover{ background:#F5ECEB; color:blue no-repeat 90% center;}
+.box .boxOptions ul li a.noico{ color:#000; text-decoration:none; background:none; display:block; padding-left:5px}
+.box .boxOptions ul li a.noico:hover{ background:#F5ECEB;}
+
+/*二级选项*/
+.boxiiOptions{ width:400px; height:auto; overflow:hidden; border:#000 1px solid; position:absolute; left:480px; top:295px; background:#FFF; z-index:999; padding-bottom:10px}
+.boxiiOptions ul{ width:100%; height:auto; overflow:hidden; padding-top:10px; margin:0px;}
+.boxiiOptions ul li{ float:left; width:50%; text-align:left; height:24px; line-height:24px}
+.boxiiOptions ul li input{ vertical-align:middle}
+.boxiiOptions ul li a{ color:#000; text-decoration:none; display:block; padding-left:5px}
+.boxiiOptions ul li a:hover{ background:#F5ECEB;}
+
+.areaExpectBoxiiOptions{ width:355px; height:auto; overflow:hidden; border:#000 1px solid; position:absolute; left:480px; top:295px; background:#FFF; z-index:999; padding-bottom:10px}
+.areaExpectBoxiiOptions ul{ width:100%; height:auto; overflow:hidden; padding-top:10px; margin:0px}
+.areaExpectBoxiiOptions ul li{ float:left; width:25%; text-align:left; height:24px; line-height:24px}
+.areaExpectBoxiiOptions ul li input{ vertical-align:middle}
+.areaExpectBoxiiOptions ul li a{ color:#000; text-decoration:none; display:block; padding-left:5px}
+.areaExpectBoxiiOptions ul li a:hover{ background:#F5ECEB;}
+
+
+#pop_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+/*设置透明度*/
+.pop_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+/*.selectCitysBox { width:250px; border: 1px solid #bdbcae; padding: 2px 5px; }
+.selectCitysBox div { float: left; }
+.selectCitysBox div.cityDelete { float: right; text-align: right; margin-right:10px; }
+.selectCitysBox_fl { float: left; margin-left: 5px;}
+.selectCitysBox_fr { float: right;}
+.selectCitysBox_clear { font-size: 0; line-height: 0; height: 0; clear: both; visibility: hidden; }
+*/
+/*  宽  150 像素*/
+.pop_widht_150{border:1px solid #67a8e8; height:auto; min-height:20px; width:150px;font-size:12px; background:#ffffff;}
+.pop_widht_150 div{ margin:2px; line-height:16px;}
+.pop_widht_150 div span{ overflow:hidden; height:16px; line-height:16px; width:130px; display: block; float:left;}
+.pop_widht_150 div a{ margin:0px 3px; color:#0000FF;}
+/*  宽  200 像素*/
+.pop_widht_200{border:1px solid #67a8e8; height:auto; min-height:20px; width:200px;font-size:12px; background:#ffffff;}
+.pop_widht_200 div{ margin:2px; line-height:16px;}
+.pop_widht_200 div span{ overflow:hidden; height:16px; line-height:16px; width:180px; display: block; float:left;}
+.pop_widht_200 div a{ margin:0px 3px; color:#0000FF;}
+/*  宽  250 像素*/
+.pop_widht_250{border:1px solid #67a8e8; height:auto; min-height:20px; width:250px;font-size:12px; background:#ffffff;}
+.pop_widht_250 div{ margin:2px; line-height:16px;}
+.pop_widht_250 div span{ overflow:hidden; height:16px; line-height:16px; width:230px; display: block; float:left;}
+.pop_widht_250 div a{ margin:0px 3px; color:#0000FF;}
+/*  宽  300 像素*/
+.pop_widht_300{border:1px solid #67a8e8; height:auto; min-height:20px; width:300px; font-size:12px; background:#ffffff;}
+.pop_widht_300 div{ margin:2px; line-height:16px;}
+.pop_widht_300 div span{ overflow:hidden; height:16px; line-height:16px; width:280px; display: block; float:left;}
+.pop_widht_300 div a{ margin:0px 3px; color:#0000FF;}
+
+.pop_widhtDIVBG{ background:#e7e7e7;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 06:23:58 Mar 15, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:46:13 May 14, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 347.768 (3)
+  RedisCDXSource: 1.543
+  exclusion.robots.policy: 0.332
+  PetaboxLoader3.resolve: 444.535 (4)
+  PetaboxLoader3.datanode: 220.608 (4)
+  exclusion.robots: 0.347
+  captures_list: 364.94
+  esindex: 0.014
+  load_resource: 356.384
+  CDXLines.iter: 11.886 (3)
+*/
