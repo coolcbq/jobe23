@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+/*H=搜索部分背景*/
+/*.M{ background:url("../images/G/2010chunjie.png") no-repeat top center; padding-top:29px;}*//*全背景*/
+.H{ background:url("/images/H_bg.gif") no-repeat bottom;}
+/* H_Top 背景*/
+/*.H_Top,.HH_LoNav{ background:url("../images/G/5y.gif") no-repeat scroll 158px 0;}*//*HMTP.gif 作用是 预告专场招聘会 节日 或庆祝的一下背景 图片 */
+/*导航*/
+.Nhover{ background:url("/images/img_btn0.png") no-repeat scroll 0 0 transparent;
+color:#FFFFFF;
+font-weight:bold;
+height:30px;
+width:136px;}
+.Na{background:url("/images/AH_bg.gif") no-repeat scroll -119px 0px; height:26px; padding-top:3px; width:86px; color:#030303;}.Na:hover{background:url("../images/red_Along/AH_bg.gif") no-repeat scroll -119px 0px; height:26px; padding-top:2px; width:86px; color:#c82e30;}
+/*搜索*/
+.H_S_In{ background:url("/images/Tx_bg.gif") no-repeat scroll 0 23px; }
+.H_S_Inb{ border:1px solid #8f1e20; background:#fff;}
+.H_S_InBUT1{ border:none; width:92px; height:21px; margin:1px; background:url("/images/But_bg.gif") no-repeat; text-align:center; line-height:21px;}
+.H_S_InBUT2{ border:none; width:63px; height:21px; margin:1px; background:url("/images/But_bg.gif") no-repeat scroll -93px 0; text-align:center; line-height:21px; font-family:Arial,"宋体";}
+/*登录框*/
+.BMLogin{ background:url("/images/Login_bg.gif") no-repeat;}
+/*城市*/
+.BM_City{ background:url("/images/City_bg.gif") no-repeat;}
+.BM_Hot{ background:#fbe0e1;}/*热门*/
+/*广告 知名企业*/
+.C_Nav_Lp,.D_Nav_Lp,.E_Nav_Lp,.C_City_Nav_Lp,.T_City_Nav_Lp{ background:url("/images/LRnavbg.gif") no-repeat scroll 0 0;}.C_Nav_Rp,.D_Nav_Rp,.E_Nav_Rp,.C_City_Nav_Rp,.T_City_Nav_Rp{ background:url("../images/red_Along/LRnavbg.gif") no-repeat scroll -10px 0;}.C_NavIn,.D_NavIn,.E_NavIn,.C_City_NavIn,.T_City_NavIn{ background:url("../images/red_Along/InNbg.gif") repeat-x;}
+.C_City_Text,.T_City_Text{ background:#fff1f1; border-left:#ffb5b7 solid 1px; border-right:#ffb5b7 solid 1px;}.C_Bottom,.D_Bottom,.E_Bottom,.C_City_Bottom,.T_City_Bottom{ background:url("../images/red_Along/Bottombg.gif") no-repeat;}
+
+/*灰色 职场咨询*/
+.F_Nav_Lp{ background:url("/images/LRnavbg.gif") no-repeat scroll 0 0;}
+.F_Nav_Rp{ background:url("/images/LRnavbg.gif") no-repeat scroll -10px 0;}
+.F_NavIn{ background:url("/images/InNbg.gif") repeat-x;}
+.F_Text{ background:#f1f8fc; border-left:#beddf0 solid 1px; border-right:#beddf0 solid 1px;}
+.F_Bottom{ background:url("/images/Bottombg.gif") no-repeat;}
+/*底部 */
+.K_Foottop{ background:url("/images/K_Foottop.gif") top repeat-x;}
+.K_FootNav_L{ background:url("/images/K_FootLR.gif") no-repeat scroll 0 0; width:15px;}
+.K_FootNav_R{ background:url("/images/K_FootLR.gif") no-repeat scroll -15px 0; width:15px;}
+.K_FootNav_I{ background:url("/images/K_Footin.gif") repeat-x; width:930px;}
+/*网站头部 样式 共享*/
+/*导航*/
+.HH{ background: url("") repeat-x bottom;}
+.HHNhover{ background:url("/images/AHH_bg.gif") no-repeat scroll 0 0; height:30px; width:86px; color:#fff; font-weight:bold;}
+.HHNa{background:url("/images/AHH_bg.gif") no-repeat scroll -87px 0px; height:26px; padding-top:3px; width:86px; color:#030303;}.HHNa:hover{background:url("../images/red_Along/AHH_bg.gif") no-repeat scroll -87px 0px; height:26px; padding-top:2px; width:86px; color:#c82e30;}
+/*城市的 登录 搜索 资讯*/
+.A_City{ background:url("/images/City_Head.gif") no-repeat;}
+/*蓝色 职场咨询*/
+.N_City_Nav_Lp{ background:url("/images/LRnavbg2.gif") no-repeat scroll 0 0;}
+.N_City_Nav_Rp{ background:url("/images/LRnavbg2.gif") no-repeat scroll -10px 0;}
+.N_City_NavIn{ background:url("/images/InNbg2.gif") repeat-x;}
+.N_City_Text{ background:#e7f3ff; border-left:#a7ddfa solid 1px; border-right:#a7ddfa solid 1px;}
+.N_City_Bottom{ background:url("/images/Bottombg2.gif") no-repeat;}
+
+
+
+
+
+
+
