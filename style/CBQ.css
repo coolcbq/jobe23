@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	font-family: Arial, "宋体";
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: #fff;
+	font-size: 12px;
+	color: #636161;
+}
+
+form,ul,li,p,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+ul,li {
+	list-style: none;
+}
+
+div {
+	overflow: hidden;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+tabel,tr,td,th {
+	font-size: 12px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.cl {
+	clear: both;
+}
+
+.co1 {
+	color: #c82e30;
+	text-decoration: none;
+}
+
+.co2 {
+	color: #ffffff;
+}
+
+.co3 {
+	color: #030303;
+}
+
+.co4 {
+	color: #ea4633;
+}
+
+.tl {
+	text-align: left;
+}
+
+.co5 {
+	color: #3566e4;
+	text-decoration: none;
+}
+
+.co5:hover {
+	color: #3566e4;
+	text-decoration: underline;
+}
+
+.co6 {
+	color: #4a4949;
+	text-decoration: none;
+}
+
+.co6:hover {
+	color: #4a4949;
+	text-decoration: underline;
+}
+
+.co7 {
+	color: #030303;
+	text-decoration: none;
+}
+
+.co7:hover {
+	color: #030303;
+	text-decoration: underline;
+}
+
+.co8 {
+	color: #fff;
+	text-decoration: none;
+}
+
+.co8:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.co9 a {
+	color: #515151;
+	text-decoration: none
+}
+
+.co9 a:hover {
+	color: #515151;
+	text-decoration: underline;
+}
+
+.M {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}  /*总容器*/
+.TOP {
+	height: 23px;
+	line-height: 23px;
+	width: 100%; /*width:980px;*/
+	background: url("/images/T_top.gif") repeat-x;
+	margin: 0px auto;
+}  /*最顶部*/
+.TopT {
+	width: 960px;
+	height: 23px;
+	text-align: right;
+	margin: 0px auto;
+}
+
+.TopT a {
+	color: #636161;
+	text-decoration: none;
+}
+
+.TopT a:hover {
+	color: #323232;
+	text-decoration: none;
+}
+
+.highlight {
+	color: #FF7F00
+}
