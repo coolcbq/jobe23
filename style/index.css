@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document  首页CSS*/
+.bg_01_1{background:url(/images/bg_01bg.png);}
+.bg_01_0{background:url(/images/bg_01bg.png);}
+/*html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);}*/
+.H{ height:134px; width:960px; margin:0px auto;}.H_Top{ width:100%; height:68px;}/*head*/
+/*.H_Top{ background:url("/web/20150315015114im_/http://www.job9988.com/images/G/HMTP.gif") no-repeat scroll 158px 0;}专场招聘*/
+.H_Top_logo{ height:68px; width:300px; text-align:left;}.H_Top_r{ height:68px; width:660px; text-align:right;}
+.H_Top_rTop{ height:38px; width:auto;}.H_Top_rN{ width:100%; height:30px; text-align:right;}
+.H_Top_rN ul{ font-size:14px;}.H_Top_rN ul li{ float:right; height:30px; width:; margin-right:1px;}.H_Top_rN ul li a{ display:block; text-decoration:none; line-height:30px; text-align:center;}/*部分结束*/
+.H_S{ width:100%; height:66px; text-align:left;}/*搜索部分*/
+.H_S_Left{ width:205px; height:66px; text-align:center;/* background:url("/web/20150315015114im_/http://www.job9988.com/images/G/duanwujie.gif") no-repeat scroll 2px 0;*/}.H_S_In{ width:525px; height:66px;}.H_S_Right{ width:230px; height:66px; text-align:center;}
+.H_S_Intop{ width:auto; height:23px; line-height:23px; padding-top:3px;}.H_S_Intop a,.BM_List a{ color:#fff; text-decoration:none;}.H_S_Intop a:hover,.BM_List a:hover{ color:#fff; text-decoration:underline;}.H_S_Inb{ width:500px; height:23px; margin:3px auto 0 auto;}.H_S_Inb ul{}.H_S_Inb ul li{ float:left;}.H_input{ width:337px; height:23px; /*火狐*/padding:2px 2px 0px 2px; /*IE*/*padding:2px; line-height:18px; margin:0px; border:0px solid #fff; font-size:12px;}/*部分结束*/
+.B{width:960px; height:221px; margin:3px auto 0px auto; border-top:5px solid #ccc;}.B_Mian{ height:218px; width:100%; margin-top:3px;}
+.BMLogin{ width:268px; height:218px; text-align:left;}.BM_Welcome{ width:auto; height:27px; line-height:27px; text-align:left; padding-left:10px;}.BM_List{ height:41px; width:auto; text-align:left; line-height:41px;}
+.BM_ridao{ padding-left:20px; padding-top:8px;}.BLoginTab{ margin-left:20px; +margin-left:19px; _margin-left:10px; width:248px; margin-top:8px;}
+.BM_input{ border:#a49393 solid 1px; width:110px; height:16px; padding:2px;}.BM_ButEnter{ margin-top:3px; width:58px; height:48px; border:0; background:url("/images/But0_bg.gif") no-repeat scroll 0 0; }/*部分结束*/
+.BM_City{ width:345px; height:218px; margin-left:10px;}.BM_City_l{ width:47px; height:120px; text-align:left;}.BM_City_r{ line-height:22px; text-align:left;}.BM_City_r a,.BM_City_r a:hover,.BM_Keda{ float:left; text-decoration:none; display:block; width:32px; height:20px; text-align:center;/*火狐*/line-height:19px;/*IE*/*line-height:22px;}.BM_City_rA{ color:#636161; }.BM_City_r a:hover,.BM_Keda,.BM_Keda:hover{ color:#fff; background:url("/images/Cityhover.gif") no-repeat;}
+.BM_Hot{ height:28px; width:auto; border-top:1px solid #cecece; border-bottom:1px solid #cecece; margin:0px 1px; line-height:28px;}
+.BM_Hot a{ color:#c82d31; text-decoration:none;}.BM_Hot a:hover{ color:#c82d31; text-decoration:underline;}
+.BM_ImgBut{ height:32px; margin-top:2px; width:auto;}.BM_ImgBut a,.BM_ImgBut a:hover{ float:left; display:block; width:95px; height:32px; padding-right:15px; text-align:right; font-weight:bold; margin-left:4px; /*IE6*/_margin-left:3px; line-height:32px; color:#fff; text-decoration:none;}.BM_ImgBut_BG1{ background:url("/images/But_bg.gif") no-repeat scroll 0 0;}.BM_ImgBut_BG2{ background:url("/images/But_bg.gif") no-repeat scroll 0 -32px;}.BM_ImgBut_BG3{ background:url("/images/But_bg.gif") no-repeat scroll 0 -64px;}.BM_TextA{ margin-top:6px;}.BM_TextA a{ color:#636161; text-decoration:none;}.BM_TextA a:hover{ color:#ff0000; text-decoration:none;}/*部分结束*/
+.BM_RBanner{ width:326px; height:218px;}.BM_RBanner ul{}.BM_RBanner ul li{float:left; height:68px;}.BM_BanMT{ margin-bottom:7px;}.BM_BanMR{margin-right:9px;}.BM_RBanner a{ border:1px solid #cecece; display:block;}.BM_RBanner a:hover{ border:1px solid #e74c29; display:block;}/*部分结束*/
+.C,.D,.E,.F,.G{ width:960px; height:auto; margin:10px auto 0 auto;}
+.C_Nav,.D_Nav,.E_Nav,.F_Nav{ height:27px; width:960px; float:left;}
+/* banner*/
+.C_Nav h1{width:958px; height:27px; background-position:0 -54px; font-size:14px; border:1px solid #ffcfcf; border-bottom:none; float:left;}
+.C_Nav h1 span {float:right; line-height:24px; font-size:12px; font-weight:100;}
+.C_Nav h1 span a{text-decoration:none; color:#cc0000; margin-right:6px;}
+.C_Nav h1 span a:hover{color:#eb0909;}
+.C_Nav h1 strong{ background:url(/images/img_0ho.png); width:190px; height:26px; float:left; text-align:center; line-height:26px; color:#fff;}
+.C_Text{width:958px; border:1px solid #ffcfcf; float:left; border-top:none; padding-bottom:10px;}
+/* D*/
+.D_Nav h2{width:958px; height:27px; background-position:0 -82px; font-size:14px; border:1px solid #ffdeb8; border-bottom:none; float:left;}
+.D_Nav h2 span {float:right; line-height:24px; font-size:12px; font-weight:100;}
+.D_Nav h2 span a{text-decoration:none; color:#af7200; margin-right:6px;}
+.D_Nav h2 span a:hover{color:#eb0909;}
+.D_Nav h2 font{ background:url(/images/img_0122.jpg); width:190px; height:26px; float:left; text-align:center; line-height:26px; color:#fff;font-size:14px;}
+.D_Text{width:958px; border:1px solid #ffdeb8; float:left; border-top:none; padding-bottom:10px;}
+/*E*/
+.E_Nav h3{width:958px; height:27px; background-position:0 -110px; font-size:14px; border:1px solid #d6e7b7; border-bottom:none; float:left;}
+.E_Nav h3 span {float:right; line-height:24px; font-size:12px; font-weight:100;}
+.E_Nav h3 span a{text-decoration:none; color:#497303; margin-right:6px;}
+.E_Nav h3 span a:hover{color:#eb0909;}
+.E_Nav h3 font{ background:url(/images/img_0123.jpg); width:190px; height:26px; float:left; text-align:center; line-height:26px; color:#fff; font-size:14px;}
+.E_Text{width:958px; border:1px solid #d6e7b7; float:left; border-top:none; padding-bottom:10px;}
+/*F
+.F_Nav h3{width:958px; height:27px; background-position:0 -139px; font-size:14px; border:1px solid #c4e6f4; border-bottom:none; float:left;}
+
+.F_Nav h3 font{ background:url(/web/20150315015114im_/http://www.job9988.com/images/img_0124.jpg); width:190px; height:26px; float:left; text-align:center; line-height:26px; color:#fff; margin-left:6px; font-size:14px;}*/
+.F_Text{width:958px; border:1px solid #c4e6f4; float:left; border-top:none; padding-bottom:10px; float:left;}
+
+.C_Nav_span,.D_Nav_span,.E_Nav_span,.F_Nav_span{ width:10px; height:29px; display:block;}.C_NavIn,.D_NavIn,.E_NavIn,.F_NavIn{ width:940px; height:29px; display:block; text-align:left; line-height:29px;}
+.C_Text,.D_Text,.E_Text,.F_Text{ width:958px; /*IE*/*width:99.8%; height:auto;}
+.C_Text ul{margin-left:4px;}
+.C_Text ul li{ float:left; margin-top:8px; margin-right:5px; height:60px;}
+.C_Text ul li a{ display:block; border:1px solid #cecece;}
+.C_Text ul li a:hover{ display:block; border:1px solid #e74c29;}
+.C_Bottom,.D_Bottom,.E_Bottom,.F_Bottom{ width:100%; height:10px; margin:0;}
+.D_Text ul,.E_Text ul,.F_Text ul{ margin:5px 3px 0px 5px; background:#fff; width:945px; height:auto; text-align:left; overflow: hidden;}.D_Text_Tab{ width:938px;}.D_Text_Tab td{ height:24px; vertical-align:middle; overflow:hidden;}.D_TdW{ width:287px;}
+/**/
+/*新增 LOGO鼠标滑过显示职位*/
+.C_Text ul li{ position:relative;}
+.C_Text ul li a span{ display:none; z-index:1000;}
+.C_Text ul li a:hover span{ display:block; float:left; border:1px solid #a4bdd7; border-top:none; width:138px; height:auto; line-height:18px; color:#1e54e7; position:absolute; top:60px; left:0px; text-decoration:none; padding:5px 0px 5px 10px; text-align:left; background:#fff6d7; z-index:1000; cursor:pointer;}
+/**/
+.D_Text ul li{ margin-left:5px; padding-left:10px; width:295px; float:left; height:24px; line-height:24px; background:url("/images/CityTextlist.gif") no-repeat left; overflow:hidden; text-overflow:ellipsis;}
+/**/
+.E_Text ul li{ float:left; margin-right:8px; width:209px; height:18px; line-height:18px; margin-top:5px; padding-left:15px; overflow:hidden; text-overflow:ellipsis; background:url("/images/Listbg.gif") no-repeat left top;}
+.F_Text ul li{ float:left; margin-right:8px; width:224px; height:18px; line-height:18px; margin-top:5px; overflow:hidden; text-overflow:ellipsis;}.F_Text ul li span{ float:left; display:block;}.F_Splist{ margin:2px; margin-right:5px; width:14px; height:14px; text-align:center; line-height:14px; background:url("/images/Listbg2.gif") no-repeat;}.F_Splist2{ width:200px; /*IE*/*padding-top:2px; text-overflow:ellipsis;}
+.CoLor1{}.CoLor1 a{ color:#282828; text-decoration:none;}.CoLor1 a:hover{ color:#000; text-decoration:underline;}
+/* ----- C , D , E , F ,---------------结束  */
+.G table{ width:100%; height:auto; border:1px solid #dadada;}.G_TDleft{ background:url("/images/N_left.gif") repeat-y; width:28px; border-right:1px solid #dadada; padding:10px 0;}.G_TDright{ width:930px; vertical-align:top;}
+.G ul li{ float:left; margin-top:3px; height:22px; line-height:22px; margin-left:4px; margin-right:6px; text-align:left; white-space:nowrap; }.G ul li a{ color:#636161; text-decoration:none;}.G ul li a:hover{ color:#636161; text-decoration:underline;}/*部分结束*/
+
+/* 求职者 与企业登录后的样式 */
+.LG_grbut{ width:184px; height:33px; background:url("/images/But_04.gif") no-repeat; text-align:center; color:#d63320; border:none; font-weight:bold;}.LGgra{ color:#000; text-decoration:none; display:block; height:20px;}.LGgra:hover{ color:#d63320; text-decoration:none; display:block; background:url("/images/But_04-4.gif") no-repeat bottom center; height:20px;}
+
+.LG_qybut{ width:184px; height:33px; background:url("/images/But_05.gif") no-repeat; text-align:center; color:#052795; border:none; font-weight:bold;}.LGqya{ color:#000; text-decoration:none; display:block; height:20px;}.LGqya:hover{ color:#052795; text-decoration:none; display:block; background:url("/images/But_05-5.gif") no-repeat bottom center; height:20px;}
+
+
+/*附*/
+.F_Fu{width:958px; height:27px; background-position:0 -139px; font-size:14px; border:1px solid #c4e6f4; border-bottom:none; float:left;}
+.F_Fu ul{}.F_Fu ul li{ float:left; height:26px; width:190px; cursor:pointer; display:inline;}
+.F_Fu ul li a{ display:block; text-align:center; text-decoration:none; line-height:26px;background:url("/images/img_0124.jpg") no-repeat; font-weight:700; color:#fff; width:190px; height:26px; line-height:26px;}
+.hovertab{ background:url("/images/img_0124.jpg") no-repeat; font-weight:700; color:#fff; width:190px; height:26px; line-height:26px; text-align:center;}
+.dis{display:block;}.undis{display:none;}
+.F_FuMr10{ margin-left:10px; color:#b9b7b7;}
+/**/
+.job_new_div{ height:30px; line-height:30px; margin:10px 10px 0 2px; word-spacing:8px;}
+.job_new_div strong{ font-size:14px; color:#000;}
+.job_new_div a{ color:#0f63ec; text-decoration:underline; font-size:14px;}
+.job_new_div a:hover{ color:#ec0f33; text-decoration:underline; font-size:14px;}
+/*首页最底IE6，IE7出现了多一行的空白，IE8当鼠标移到链接的时候会出现两行空白，Fx默认不会出现空白行，当鼠标移到有链接的地方就会出现一行空白*/
+body{ /*IE*/*margin-bottom:-20px;}
+ 
+/*底部样式在 Alongfoot 样式表中*/
+
+
+
