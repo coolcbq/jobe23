@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document 底部 */
+/**/
+.co7{ color:#030303; text-decoration:none;}.co7:hover{ color:#030303; text-decoration:underline;}
+#footer{width:960px; height:100%; margin:0 auto;}
+/**/
+.K{width:958px; clear:both; border:1px solid #ffd7d8; margin:0 auto;}
+.K_Foottop{ height:36px;}/*底部*/
+.K_FootNav{ width:958px; background:url("/images/bg_01bg.png") 0 -53px; height:27px; line-height:27px; text-align:center;}
+.K_FootNav span{ display:block; height:30px; text-align:center;}
+.K_FootNav a{ color:#333; text-decoration:none; padding:0 12px;}
+.K_FootNav a:hover{ color:#990000; text-decoration:underline;}
+.K_FootPic{ height:53px; margin:10px auto; width:544px; text-align:center;}
+.K_FootPic span{ margin:0px 5px; display:block; width:112px; height:48px; text-align:right; padding:5px 12px 0 0; line-height:23px;}
+.K_FootPic a{color:#636161; text-decoration:none;}
+.K_FootPic a:hover{ color:#636161; text-decoration:underline;}
+.K_Baoj{ background:url("/images/Baoj.gif") no-repeat;}
+.K_Wanga{ background:url("/images/Wanga.gif") no-repeat;}
+.K_Ypic{ background:url("/images/Ypic.gif") no-repeat;}
+.K_FootTex{ height:70px; margin:10px auto 0 auto; width:960px;}
+.K_FootTex li{ height:70px; float:left;}
+.K_FootLl{ width:170px; text-align:right; background:url("/images/Jobe23.gif") no-repeat top right;}
+.K_FootLi{ width:620px; text-align:left;}
+.K_FootLr{ width:170px; text-align:left; background:url("/images/Jobline.gif") no-repeat top left;}
+.K_dzyyzz{margin:0px 5px; display:block; width:124px; height:53px; background:url("/images/dzyyzz.gif") no-repeat; padding:0;}
+
+
